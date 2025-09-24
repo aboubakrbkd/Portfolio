@@ -1,5 +1,6 @@
 import React from 'react';
 import { Code2, GraduationCap, Heart } from 'lucide-react';
+import profileImage from './aboukdid.jpg';
 
 const About = () => {
   return (
@@ -57,7 +58,7 @@ const About = () => {
               <div className="text-center space-y-6">
                 <div className="w-32 h-32 mx-auto rounded-full overflow-hidden shadow-lg ring-4 ring-purple-100 dark:ring-purple-900/30">
                   <img 
-                    src="/aboukdid.jpg" 
+                    src={profileImage} 
                     alt="Aboubakr Boukdidi" 
                     className="w-full h-full object-cover"
                   />

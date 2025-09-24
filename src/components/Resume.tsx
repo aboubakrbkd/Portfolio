@@ -1,16 +1,17 @@
 import React from 'react';
 import { Download, FileText, Eye } from 'lucide-react';
+import resumePdf from '/AboubakrBoukdidi.pdf?url';
 
 const Resume = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/AboubakrBoukdidi.pdf';
+    link.href = resumePdf;
     link.download = 'AboubakrBoukdidi_Resume.pdf';
     link.click();
   };
 
   const handleView = () => {
-    window.open('/AboubakrBoukdidi.pdf', '_blank');
+    window.open(resumePdf, '_blank');
   };
 
   return (
@@ -60,7 +61,7 @@ const Resume = () => {
             <div className="bg-white dark:bg-gray-900 rounded-lg shadow-inner border dark:border-gray-600 overflow-hidden">
               <div className="aspect-[8.5/11] w-full">
                 <iframe
-                  src="/AboubakrBoukdidi.pdf"
+                  src={resumePdf}
                   className="w-full h-full border-0"
                   title="Resume Preview"
                 />
