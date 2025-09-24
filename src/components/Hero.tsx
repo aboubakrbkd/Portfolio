@@ -30,7 +30,7 @@ const Hero = () => {
 
           <div className="flex justify-center space-x-6">
             <a
-              href="https://github.com/aboubakr-boukdidi"
+              href="https://github.com/aboubakrbkd"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-gray-900 dark:bg-gray-700 text-white rounded-full hover:bg-gray-800 dark:hover:bg-gray-600 transition-all duration-300 hover:scale-110 shadow-lg hover:shadow-xl"
@@ -46,7 +46,7 @@ const Hero = () => {
               <Linkedin size={24} />
             </a>
             <a
-              href="mailto:aboubakr.boukdidi@example.com"
+              href="mailto:bkd.bakr3@gmail.com"
               className="p-3 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-full hover:from-purple-700 hover:to-indigo-700 transition-all duration-300 hover:scale-110 shadow-lg hover:shadow-xl"
             >
               <Mail size={24} />

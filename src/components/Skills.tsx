@@ -17,8 +17,8 @@ const Skills = () => {
       skills: [
         { name: 'Node.js', level: 85 },
         { name: 'Express.js', level: 80 },
+        { name: 'fastify', level: 80 },
         { name: 'REST APIs', level: 90 },
-        { name: 'GraphQL', level: 70 },
       ],
     },
     {
@@ -34,6 +34,7 @@ const Skills = () => {
       title: 'DevOps & Tools',
       skills: [
         { name: 'Docker', level: 85 },
+        { name: 'Kubernetes', level: 60 },
         { name: 'Git', level: 90 },
         { name: 'Linux', level: 85 },
         { name: 'AWS', level: 65 },
@@ -43,6 +44,7 @@ const Skills = () => {
       title: 'Frontend',
       skills: [
         { name: 'React', level: 75 },
+        { name: 'Next.js', level: 70 },
         { name: 'HTML/CSS', level: 80 },
         { name: 'Tailwind CSS', level: 75 },
       ],

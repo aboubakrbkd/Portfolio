@@ -32,7 +32,7 @@ function App() {
               <p className="text-gray-400 mb-6">Backend Developer</p>
               <div className="flex justify-center space-x-6 mb-8">
                 <a
-                  href="https://github.com/aboubakr-boukdidi"
+                  href="https://github.com/aboubakrbkd"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white transition-colors duration-300"
@@ -48,7 +48,7 @@ function App() {
                   LinkedIn
                 </a>
                 <a
-                  href="mailto:aboubakr.boukdidi@example.com"
+                  href="mailto:bkd.bakr3@gmail.com"
                   className="text-gray-400 hover:text-white transition-colors duration-300"
                 >
                   Email
