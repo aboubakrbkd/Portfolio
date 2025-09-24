@@ -55,8 +55,12 @@ const About = () => {
           <div className="relative">
             <div className="bg-gradient-to-br from-purple-50 to-indigo-50 dark:from-purple-900/20 dark:to-indigo-900/20 rounded-2xl p-8 shadow-xl border dark:border-gray-700">
               <div className="text-center space-y-6">
-                <div className="w-32 h-32 bg-gradient-to-br from-purple-600 to-indigo-600 rounded-full mx-auto flex items-center justify-center text-white text-4xl font-bold shadow-lg">
-                  AB
+                <div className="w-32 h-32 mx-auto rounded-full overflow-hidden shadow-lg ring-4 ring-purple-100 dark:ring-purple-900/30">
+                  <img 
+                    src="/aboukdid.jpg" 
+                    alt="Aboubakr Boukdidi" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Backend Developer</h3>

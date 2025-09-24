@@ -7,31 +7,31 @@ const Projects = () => {
       title: 'Webserver',
       description: 'A high-performance HTTP server built from scratch in C++, implementing core web protocols and request handling with efficient memory management.',
       technologies: ['C++', 'HTTP', 'Socket Programming'],
-      github: 'https://github.com/aboubakr-boukdidi/webserver',
+      github: 'https://github.com/aboubakr-boukdidi/webserv',
     },
     {
       title: 'BookLibrary',
       description: 'A comprehensive library management system with REST API, user authentication, and book catalog management built with modern backend technologies.',
       technologies: ['Node.js', 'MongoDB', 'Express', 'JWT'],
-      github: 'https://github.com/aboubakr-boukdidi/booklibrary',
+      github: 'https://github.com/aboubakr-boukdidi/BookLibrary',
     },
     {
       title: 'Inception',
       description: 'Multi-container Docker application demonstrating microservices architecture with WordPress, MySQL, and Nginx in isolated environments.',
       technologies: ['Docker', 'Docker Compose', 'WordPress', 'MySQL'],
-      github: 'https://github.com/aboubakr-boukdidi/inception',
+      github: 'https://github.com/aboubakr-boukdidi/Inception',
     },
     {
       title: 'Minishell',
       description: 'A Unix shell implementation in C with command parsing, process management, pipes, redirections, and built-in commands functionality.',
       technologies: ['C', 'Unix Systems', 'Process Management'],
-      github: 'https://github.com/aboubakr-boukdidi/minishell',
+      github: 'https://github.com/aboubakr-boukdidi/Minishell',
     },
     {
       title: 'Transcendance',
       description: 'Full-stack web application with real-time features, user management, and interactive gameplay using modern web technologies.',
       technologies: ['React', 'Node.js', 'WebSocket', 'PostgreSQL'],
-      github: 'https://github.com/aboubakr-boukdidi/transcendance',
+      github: 'https://github.com/aboubakr-boukdidi/ft_transcendence',
     },
   ];
 
